@@ -29,3 +29,4 @@ bmi = weight / (height * height)
 # or 
 bmi = weight / height ** 2
 print(round(bmi))
+
