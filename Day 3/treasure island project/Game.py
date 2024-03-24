@@ -9,15 +9,15 @@ print('''
                                                              
       ''')
 print("Welcome to Treasure Island.  Your mission is to find the treasure.")
-choice=input("left or right?").lower()
+choice=input("you want to go 'left' or 'right'?").lower()
 if choice  != "left":
     print("Fall into a hole. Game Over")
 else:
-    choice=input("swim or wait?").lower()
+    choice=input("you want to 'swim' or 'wait'?").lower()
     if choice != "wait":
         print("Attacked by trout. Game Over")
     else:
-        choice=input("which door? Red, Blue or Yellow?").lower()
+        choice=input("which door? choose 'Red', 'Blue' or 'Yellow'?").lower()
         if choice == "red":
             print("Burned by fire. Game Over")
         elif choice == "blue":
